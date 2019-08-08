@@ -38,3 +38,9 @@ The services it uses are:
 - Elasticsearch for aggregating and searching events.
 
 Further documentation is available on: https://invenio-stats.readthedocs.io/
+
+Changes
+-------
+
+Removed
+  "template": "events-stats-record-view-*",

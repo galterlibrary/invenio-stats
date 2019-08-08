@@ -264,7 +264,7 @@ class ESTermsQuery(ESQuery):
 
         if self.copy_fields:
             base_agg.metric(
-                'top_hit', 'top_hits', size=1, sort={'timestamp': 'desc'}
+                'top_hit', 'top_hits', size=1, sort={'timestamp': 'desc'}  # replace with time_field
             )
 
         for query_param, filtered_field in self.required_filters.items():

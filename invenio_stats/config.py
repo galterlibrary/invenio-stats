@@ -24,6 +24,7 @@ signal sent.
 """
 
 STATS_EVENTS = {
+    'record-view': {},  # Use default configuration
     'file-download': {
         'signal': 'invenio_files_rest.signals.file_downloaded',
         'event_builders': [
